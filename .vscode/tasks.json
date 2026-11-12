@@ -1,0 +1,17 @@
+
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run NLP Sentiment App",
+            "type": "shell",
+            "command": "${workspaceFolder}/venv/bin/streamlit",
+            "args": [
+                "run",
+                "${workspaceFolder}/app.py"
+            ],
+            "problemMatcher": [],
+            "isBackground": true
+        }
+    ]
+}
